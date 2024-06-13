@@ -8,12 +8,33 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Auth">
     <Grid>
-        <StackPanel Margin="20">
-            <TextBlock Text="Логин" Width="193"/>
-            <TextBox Width="200" x:Name="txtUsername"/>
-            <TextBlock Text="Пароль" Width="198" />
-            <PasswordBox Width="200" x:Name="Pas" />
-            <Button Content="Войти" Click="Loginer_Click"/>
-        </StackPanel>
+      <StackPanel Margin="20">
+  <!-- 
+   
+    Элементы внутри этой панели будут расположены друг под другом.
+  -->
+  <TextBlock Text="Логин" Width="193"/>
+  <!--
+    Отображает текст "Логин" шириной 193 пикселя.
+  -->
+  <TextBox Width="200" x:Name="txtUsername"/>
+  <!--
+ 
+    В этом поле пользователь будет вводить свой логин.
+  -->
+  <TextBlock Text="Пароль" Width="198" />
+
+  <PasswordBox Width="200" x:Name="Pas" />
+  <!--
+    В этом поле пользователь будет вводить свой пароль.
+    Пароль будет отображаться точками (*****) для безопасности.
+  -->
+  <Button Content="Войти" Click="Loginer_Click"/>
+  <!--
+    Создает кнопку "Войти" с обработчиком события Click, 
+    который вызывается при нажатии на кнопку.
+    Обработчик события имеет имя "Loginer_Click".
+  -->
+</StackPanel>
     </Grid>
 </Page>
