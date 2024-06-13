@@ -11,7 +11,7 @@ namespace manuu
 {
     using System;
     using System.Collections.Generic;
-    
+    //создаем класс 
     public partial class Dolj
     {
         public int id_user { get; set; }
