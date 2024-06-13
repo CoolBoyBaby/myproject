@@ -7,42 +7,126 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <!-- Вкладка для добавления/редактирования блюд -->
-        <TabControl>
-            <TabItem Header="Блюдо">
-                <StackPanel>
-                    <TextBox x:Name="dishNameTextBox" Margin="10" Width="300" Height="30" Text="Название блюда"/>
-                    <TextBox x:Name="dishWeightTextBox" Margin="10" Width="300" Height="30" Text="Вес порции"/>
-                    <TextBox x:Name="dishCaloriesTextBox" Margin="10" Width="300" Height="30" Text="Калорийность"/>
-                    <TextBox x:Name="dishPriceTextBox" Margin="10" Width="300" Height="30" Text="Цена"/>
-                    <Button x:Name="saveDishButton" Content="Сохранить блюдо" Click="SaveDishButton_Click" Margin="10" Width="300" Height="30"/>
-                    <Label x:Name="dishErrorLabel" Width="300"/>
-                </StackPanel>
-            </TabItem>
+      <TabControl>
+  <!-- 
+    Создает элемент управления "TabControl", 
+    который позволяет переключаться между вкладками.
+  -->
+  <TabItem Header="Блюдо">
+    <!-- 
+      Создает вкладку с заголовком "Блюдо".
+    -->
+    <StackPanel>
+      <!-- 
+        Создает вертикальную панель с элементами, 
+        расположенными друг под другом.
+      -->
+      <TextBox x:Name="dishNameTextBox" Margin="10" Width="300" Height="30" Text="Название блюда"/>
+      <!-- 
+        Создает текстовое поле для ввода названия блюда. 
+        Имеет отступ 10 пикселей со всех сторон, 
+        ширину 300 пикселей и высоту 30 пикселей. 
+        По умолчанию в поле отображается текст "Название блюда".
+      -->
+      <TextBox x:Name="dishWeightTextBox" Margin="10" Width="300" Height="30" Text="Вес порции"/>
+      <!-- 
+        Создает текстовое поле для ввода веса порции.
+        Имеет отступ 10 пикселей со всех сторон, 
+        ширину 300 пикселей и высоту 30 пикселей. 
+        По умолчанию в поле отображается текст "Вес порции".
+      -->
+      <TextBox x:Name="dishCaloriesTextBox" Margin="10" Width="300" Height="30" Text="Калорийность"/>
+      <!-- 
+        Создает текстовое поле для ввода калорийности.
+        Имеет отступ 10 пикселей со всех сторон, 
+        ширину 300 пикселей и высоту 30 пикселей. 
+        По умолчанию в поле отображается текст "Калорийность".
+      -->
+      <TextBox x:Name="dishPriceTextBox" Margin="10" Width="300" Height="30" Text="Цена"/>
+      <!-- 
+        Создает текстовое поле для ввода цены.
+        Имеет отступ 10 пикселей со всех сторон, 
+        ширину 300 пикселей и высоту 30 пикселей. 
+        По умолчанию в поле отображается текст "Цена".
+      -->
+      <Button x:Name="saveDishButton" Content="Сохранить блюдо" Click="SaveDishButton_Click" Margin="10" Width="300" Height="30"/>
+      <!-- 
+        Создает кнопку "Сохранить блюдо" с обработчиком события Click 
+        (SaveDishButton_Click), 
+        который будет вызываться при нажатии на кнопку.
+        Имеет отступ 10 пикселей со всех сторон, 
+        ширину 300 пикселей и высоту 30 пикселей.
+      -->
+      <Label x:Name="dishErrorLabel" Width="300"/>
+      <!-- 
+        Создает метку (Label) с именем "dishErrorLabel" 
+        шириной 300 пикселей. 
+        В эту метку можно будет выводить сообщения об ошибках.
+      -->
+    </StackPanel>
+  </TabItem>
 
-            <!-- Вкладка для добавления новых ингредиентов-->
-            <TabItem Header="Продукты">
-                <ListBox Name="ingredientsListBox" 
-                 ItemsSource="{Binding Ingredients}"
-                 Margin="10">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal">
-                                <TextBlock Name="productNameTextBox"/>
-                                <TextBox Name="productUnitsTextBox"/>
-                                <Button Name="SaveIngredientButton" 
-                             Content="Сохранить Ингредиент" 
-                             Click="SaveIngredientButton_Click"
-                             Margin="10"/>
-
-                                <TextBlock Text="{Binding UnitsOfMeasurement}"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
-
-
-            </TabItem>
+  <!-- 
+    Вкладка для добавления новых ингредиентов.
+  -->
+  <TabItem Header="Продукты">
+    <ListBox Name="ingredientsListBox" 
+             ItemsSource="{Binding Ingredients}"
+             Margin="10">
+      <!-- 
+        Создает список (ListBox) для отображения ингредиентов.
+        Данные для списка берутся из свойства "Ingredients", 
+        которое, вероятно,  связано с коллекцией 
+        ингредиентов  в  модели  данных  приложения.
+        Имеет отступ 10 пикселей со всех сторон.
+      -->
+      <ListBox.ItemTemplate>
+        <!-- 
+          Определяет шаблон для отображения каждого элемента 
+          в списке "ingredientsListBox".
+        -->
+        <DataTemplate>
+          <StackPanel Orientation="Horizontal">
+            <!-- 
+              Создает горизонтальную панель для размещения 
+              элементов  ингредиента  рядом  друг  с  другом.
+            -->
+            <TextBlock Name="productNameTextBox"/>
+            <!-- 
+              Создает текстовый блок с именем "productNameTextBox", 
+              который будет отображать название ингредиента.
+            -->
+            <TextBox Name="productUnitsTextBox"/>
+            <!-- 
+              Создает текстовое поле с именем "productUnitsTextBox", 
+              которое будет отображать количество 
+              ингредиента в единицах измерения.
+            -->
+            <Button Name="SaveIngredientButton" 
+                    Content="Сохранить Ингредиент" 
+                    Click="SaveIngredientButton_Click"
+                    Margin="10"/>
+            <!-- 
+              Создает кнопку "Сохранить Ингредиент" 
+              с обработчиком события Click 
+              (SaveIngredientButton_Click), 
+              который будет вызываться при нажатии на кнопку.
+              Имеет отступ 10 пикселей со всех сторон.
+            -->
+            <TextBlock Text="{Binding UnitsOfMeasurement}"/>
+            <!-- 
+              Создает текстовый блок, 
+              который будет отображать единицу измерения 
+              ингредиента, 
+              связанную с  свойством  "UnitsOfMeasurement" 
+              из  модели  данных.
+            -->
+          </StackPanel>
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+  </TabItem>
+</TabControl>
             <!-- Вкладка для поиска блюд по ингредиентам -->
             <TabItem Header="Поиск">
                 <StackPanel>
