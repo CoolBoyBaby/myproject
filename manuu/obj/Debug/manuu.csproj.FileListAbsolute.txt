@@ -1,0 +1,33 @@
+C:\Users\parfe\OneDrive\Desktop\на завтра\manuu\manuu\obj\Debug\manuu.csproj.AssemblyReference.cache
+C:\Users\parfe\OneDrive\Desktop\на завтра\manuu\manuu\obj\Debug\AuthWindow.g.cs
+C:\Users\parfe\OneDrive\Desktop\на завтра\manuu\manuu\obj\Debug\MainWindow.g.cs
+C:\Users\parfe\OneDrive\Desktop\на завтра\manuu\manuu\obj\Debug\App.g.cs
+C:\Users\parfe\OneDrive\Desktop\на завтра\manuu\manuu\obj\Debug\manuu_Content.g.cs
+C:\Users\parfe\OneDrive\Desktop\на завтра\manuu\manuu\obj\Debug\manuu_MarkupCompile.cache
+C:\Users\parfe\OneDrive\Desktop\на завтра\manuu\manuu\obj\Debug\manuu_MarkupCompile.lref
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu.csproj.AssemblyReference.cache
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\MainWindow.g.cs
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\App.g.cs
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu_Content.g.cs
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu_MarkupCompile.cache
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu_MarkupCompile.lref
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\Auth.g.cs
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\bin\Debug\manuu.exe.config
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\bin\Debug\manuu.exe
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\bin\Debug\manuu.pdb
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\bin\Debug\EntityFramework.dll
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\bin\Debug\EntityFramework.xml
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\Auth.baml
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\MainWindow.baml
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu.g.resources
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu.Properties.Resources.resources
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu.csproj.GenerateResource.cache
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu.csproj.CoreCompileInputs.cache
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu.csproj.Up2Date
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu.exe
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\manuu.pdb
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\Window1.g.cs
+C:\Users\parfe\OneDrive\Desktop\практика\manuu\manuu\obj\Debug\Window1.baml
