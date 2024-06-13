@@ -12,6 +12,7 @@ namespace manuu
     using System;
     using System.Collections.Generic;
     // класс Bludo, который представляет информацию о блюде
+    // создаем класс
     public partial class Bludo
     {
         public int id_bludo { get; set; }
